@@ -1,0 +1,60 @@
+
+        #header {
+            background-color: black;
+            text-align: center;
+            margin-bottom: 5px;
+            width: 100%;
+            height: 20%;
+            color: orange;
+            font-family: tahoma;
+            font-size: 60px;
+        }
+        #insertfood {
+            width: 100%;
+            background-color: yellow;
+            text-align: center;
+            margin-right: 25px;
+            height: 30%;
+
+        }
+        #insertmaterial {
+            width: 100%;
+            background-color: orange;
+            text-align: center;
+            height: 30%;
+            margin-top: 5px;
+
+        }
+
+        #footer {
+            background-color: black;
+            text-align: center;
+            height: 5%;
+            margin-top: 5px;
+            width: 100%;
+        }
+
+        #container {
+            position: absolute;
+            right: 3%;
+            left: 3%;
+            width: 94%;
+            border-style: solid
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+        }
+
+        td {
+            width: 25%;
+            text-align: center;
+
+        }
+
+        table1 {
+            width: 100%;
+        }
+
+    

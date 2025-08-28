@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+    <form method="post" action="insert.php">
+        <div id="container">
+            <div id="header">Fast Food</div>
+            <div id="insertfood">
+                <table dir="rtl" cellspacing="5px" border="1">
+                    <tr>
+                        <th>
+                            نام
+                        </th>
+                        <th>
+                            نوع
+                        </th>
+                        <th>
+                            مواد اولیه
+                        </th>
+                        <th>
+                            قیمت
+                        </th>
+                        <th>
+                            تصویر
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="title">
+                        </td>
+                        <td>
+                            <select name="type">
+                                <option value="1">پیش غذا</option>
+                                <option value="2">غذای اصلی</option>
+                                <option value="3">دسر</option>
+                            </select>
+                        </td>
+                        <td>
+
+                            <textarea cols="40" rows="2" name="material"></textarea>
+                        </td>
+                        <td>
+
+                            <input type="text" name="price">
+                        </td>
+                        <td>
+
+                            <input type="file" name="pic">
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" value="ذخیره">
+            </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>
