@@ -1,0 +1,52 @@
+body,ul,li {
+margin: 0px ;
+padding: 0px;
+/*background-color:#34495e; */
+}
+/* کدهای مربوط به منوی اصلی از 1 تا 6*/ 
+li {
+	font-family: tahoma;
+	font-size: 14px;
+	color: yellow;
+	line-height: 40px;
+	/*list-style-type: none;*/
+	background-color: #2c3e50; 
+	width: 100px;
+	float: right;
+	text-align: center;
+	height: 40px;
+    margin-left: 1px;
+	display: block; 
+}
+li ul {
+	/*display : block; /* برای نمایش ساب منو*/ 
+    display: none;
+}
+/* رنگ ساب منوها */
+li ul li {
+    background-color: #7f8c8d;
+}
+/* تغییر رنگ منوی اصلی و اشارهگر ماوس*/
+li:hover{
+background-color:#bdc3c7;
+cursor:pointer;}
+/* وقتی ماوس روی ساب منو قرار گرفت نشان داده شود*/ 
+li:hover>ul{
+display:block;
+}
+
+/* جدول*/ 
+table,th,td{
+	border: 1px solid blue;
+	font: 10px , tahoma;
+	text-align: center;
+	padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(odd) {
+    background-color: lighter;    
+}
+    
+	
